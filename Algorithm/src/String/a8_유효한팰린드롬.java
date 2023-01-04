@@ -1,26 +1,34 @@
-package string;
+package String;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class a7_회문문자열 {
+public class a8_유효한팰린드롬 {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 		String str = br.readLine().toLowerCase();
 		
-		// 왼쪽 시작
 		int left = 0;
-		// 오른쪽 시작
 		int right = str.length() - 1;
 		
 		boolean result = true;
-		// 오른쪽의 값이 큰 동안
 		while(left < right) {
+			if(!Character.isAlphabetic(str.charAt(left))) {
+				left++;
+				continue;
+			}
+			
+			if(!Character.isAlphabetic(str.charAt(right))) {
+				right--;
+				continue;
+			}
+			
 			if(str.charAt(left) == str.charAt(right)) {
 				left++;
 				right--;
+				continue;
 			}
 			else {
 				result = false;
@@ -30,19 +38,21 @@ public class a7_회문문자열 {
 		
 		System.out.println(result == true ? "YES" : "NO");
 	}
-
 }
 
 /*
 설명
 
-앞에서 읽을 때나 뒤에서 읽을 때나 같은 문자열을 회문 문자열이라고 합니다.
-문자열이 입력되면 해당 문자열이 회문 문자열이면 "YES", 회문 문자열이 아니면 “NO"를 출력하는 프로그램을 작성하세요.
-단 회문을 검사할 때 대소문자를 구분하지 않습니다.
+앞에서 읽을 때나 뒤에서 읽을 때나 같은 문자열을 팰린드롬이라고 합니다.
+문자열이 입력되면 해당 문자열이 팰린드롬이면 "YES", 아니면 “NO"를 출력하는 프로그램을 작성하세요.
+단 회문을 검사할 때 알파벳만 가지고 회문을 검사하며, 대소문자를 구분하지 않습니다.
+알파벳 이외의 문자들의 무시합니다.
+
 
 입력
 첫 줄에 길이 100을 넘지 않는 공백이 없는 문자열이 주어집니다.
 
+
 출력
-첫 번째 줄에 회문 문자열인지의 결과를 YES 또는 NO로 출력합니다.
+첫 번째 줄에 팰린드롬인지의 결과를 YES 또는 NO로 출력합니다.
 */
