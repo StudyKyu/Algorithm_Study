@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class a10_°¡ÀåÂªÀº¹®ÀÚ°Å¸® {
+public class a10_ê°€ìž¥ì§§ì€ë¬¸ìžê±°ë¦¬ {
 	
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -53,17 +53,11 @@ public class a10_°¡ÀåÂªÀº¹®ÀÚ°Å¸® {
 }
 
 /*
-
-¼³¸í
-
-ÇÑ °³ÀÇ ¹®ÀÚ¿­ s¿Í ¹®ÀÚ t°¡ ÁÖ¾îÁö¸é ¹®ÀÚ¿­ sÀÇ °¢ ¹®ÀÚ°¡ ¹®ÀÚ t¿Í ¶³¾îÁø ÃÖ¼Ò°Å¸®¸¦ Ãâ·ÂÇÏ´Â ÇÁ·Î±×·¥À» ÀÛ¼ºÇÏ¼¼¿ä.
-
-ÀÔ·Â
-Ã¹ ¹øÂ° ÁÙ¿¡ ¹®ÀÚ¿­ s¿Í ¹®ÀÚ t°¡ ÁÖ¾îÁø´Ù. ¹®ÀÚ¿­°ú ¹®ÀÚ´Â ¼Ò¹®ÀÚ·Î¸¸ ÁÖ¾îÁý´Ï´Ù.
-¹®ÀÚ¿­ÀÇ ±æÀÌ´Â 100À» ³ÑÁö ¾Ê´Â´Ù.
-
-
-Ãâ·Â
-Ã¹ ¹øÂ° ÁÙ¿¡ °¢ ¹®ÀÚ¿­ sÀÇ °¢ ¹®ÀÚ°¡ ¹®ÀÚ t¿Í ¶³¾îÁø °Å¸®¸¦ ¼ø¼­´ë·Î Ãâ·ÂÇÑ´Ù.
-
+ì„¤ëª…
+í•œ ê°œì˜ ë¬¸ìžì—´ sì™€ ë¬¸ìž tê°€ ì£¼ì–´ì§€ë©´ ë¬¸ìžì—´ sì˜ ê° ë¬¸ìžê°€ ë¬¸ìž tì™€ ë–¨ì–´ì§„ ìµœì†Œê±°ë¦¬ë¥¼ ì¶œë ¥í•˜ëŠ” í”„ë¡œê·¸ëž¨ì„ ìž‘ì„±í•˜ì„¸ìš”.
+ìž…ë ¥
+ì²« ë²ˆì§¸ ì¤„ì— ë¬¸ìžì—´ sì™€ ë¬¸ìž tê°€ ì£¼ì–´ì§„ë‹¤. ë¬¸ìžì—´ê³¼ ë¬¸ìžëŠ” ì†Œë¬¸ìžë¡œë§Œ ì£¼ì–´ì§‘ë‹ˆë‹¤.
+ë¬¸ìžì—´ì˜ ê¸¸ì´ëŠ” 100ì„ ë„˜ì§€ ì•ŠëŠ”ë‹¤.
+ì¶œë ¥
+ì²« ë²ˆì§¸ ì¤„ì— ê° ë¬¸ìžì—´ sì˜ ê° ë¬¸ìžê°€ ë¬¸ìž tì™€ ë–¨ì–´ì§„ ê±°ë¦¬ë¥¼ ìˆœì„œëŒ€ë¡œ ì¶œë ¥í•œë‹¤.
 */

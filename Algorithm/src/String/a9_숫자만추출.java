@@ -4,7 +4,7 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class a9_¼ýÀÚ¸¸ÃßÃâ {
+public class a9_ìˆ«ìžë§Œì¶”ì¶œ {
 
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -25,19 +25,12 @@ public class a9_¼ýÀÚ¸¸ÃßÃâ {
 }
 
 /*
-¼³¸í
-
-¹®ÀÚ¿Í ¼ýÀÚ°¡ ¼¯¿©ÀÖ´Â ¹®ÀÚ¿­ÀÌ ÁÖ¾îÁö¸é ±× Áß ¼ýÀÚ¸¸ ÃßÃâÇÏ¿© ±× ¼ø¼­´ë·Î ÀÚ¿¬¼ö¸¦ ¸¸µì´Ï´Ù.
-
-¸¸¾à ¡°tge0a1h205er¡±¿¡¼­ ¼ýÀÚ¸¸ ÃßÃâÇÏ¸é 0, 1, 2, 0, 5ÀÌ°í ÀÌ°ÍÀ» ÀÚ¿¬¼ö¸¦ ¸¸µé¸é 1205ÀÌ µË´Ï´Ù.
-
-ÃßÃâÇÏ¿© ¸¸µé¾îÁö´Â ÀÚ¿¬¼ö´Â 100,000,000À» ³ÑÁö ¾Ê½À´Ï´Ù.
-
-
-ÀÔ·Â
-Ã¹ ÁÙ¿¡ ¼ýÀÚ°¡ ¼¯ÀÎ ¹®ÀÚ¿­ÀÌ ÁÖ¾îÁý´Ï´Ù. ¹®ÀÚ¿­ÀÇ ±æÀÌ´Â 100À» ³ÑÁö ¾Ê½À´Ï´Ù.
-
-
-Ãâ·Â
-Ã¹ ÁÙ¿¡ ÀÚ¿¬¼ö¸¦ Ãâ·ÂÇÕ´Ï´Ù.
+ì„¤ëª…
+ë¬¸ìžì™€ ìˆ«ìžê°€ ì„žì—¬ìžˆëŠ” ë¬¸ìžì—´ì´ ì£¼ì–´ì§€ë©´ ê·¸ ì¤‘ ìˆ«ìžë§Œ ì¶”ì¶œí•˜ì—¬ ê·¸ ìˆœì„œëŒ€ë¡œ ìžì—°ìˆ˜ë¥¼ ë§Œë“­ë‹ˆë‹¤.
+ë§Œì•½ â€œtge0a1h205erâ€ì—ì„œ ìˆ«ìžë§Œ ì¶”ì¶œí•˜ë©´ 0, 1, 2, 0, 5ì´ê³  ì´ê²ƒì„ ìžì—°ìˆ˜ë¥¼ ë§Œë“¤ë©´ 1205ì´ ë©ë‹ˆë‹¤.
+ì¶”ì¶œí•˜ì—¬ ë§Œë“¤ì–´ì§€ëŠ” ìžì—°ìˆ˜ëŠ” 100,000,000ì„ ë„˜ì§€ ì•ŠìŠµë‹ˆë‹¤.
+ìž…ë ¥
+ì²« ì¤„ì— ìˆ«ìžê°€ ì„žì¸ ë¬¸ìžì—´ì´ ì£¼ì–´ì§‘ë‹ˆë‹¤. ë¬¸ìžì—´ì˜ ê¸¸ì´ëŠ” 100ì„ ë„˜ì§€ ì•ŠìŠµë‹ˆë‹¤.
+ì¶œë ¥
+ì²« ì¤„ì— ìžì—°ìˆ˜ë¥¼ ì¶œë ¥í•©ë‹ˆë‹¤.
 */
