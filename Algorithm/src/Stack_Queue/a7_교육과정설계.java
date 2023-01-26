@@ -15,23 +15,38 @@ public class a7_교육과정설계 {
 		String sub = br.readLine();
 		
 		Queue<Character> q = new ConcurrentLinkedQueue<>();
-		for (Character c : sub.toCharArray()) {
+		for (Character c : eq.toCharArray()) {
 			q.offer(c);
 		}
 		
-		int idx = 0;
-		for(int i = 0; i < sub.length(); ++i) {
-			char chk = eq.charAt(idx);
-			char poll = q.poll();
-			if(chk == poll) {
-				idx++;
-				
-				if(idx == eq.length())
+		boolean chk = true;
+		for(char x : sub.toCharArray()) {
+			if(q.contains(x)) {
+				if(x!=q.poll()) {
+					chk = false;
 					break;
+				}
 			}
 		}
 		
-		System.out.println( idx == eq.length() ? "YES" : "NO" );
+		if(!q.isEmpty())
+			chk = false;
+		
+		System.out.println(chk == true ? "YES" : "NO");
+		
+//		int idx = 0;
+//		for(int i = 0; i < sub.length(); ++i) {
+//			char chk = eq.charAt(idx);
+//			char poll = q.poll();
+//			if(chk == poll) {
+//				idx++;
+//				
+//				if(idx == eq.length())
+//					break;
+//			}
+//		}
+//		
+//		System.out.println( idx == eq.length() ? "YES" : "NO" );
 	}
 
 }
