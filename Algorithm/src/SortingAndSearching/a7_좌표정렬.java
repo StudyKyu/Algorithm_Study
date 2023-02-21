@@ -1,4 +1,4 @@
-package Sort;
+package SortingAndSearching;
 
 import java.io.IOException;
 import java.util.ArrayList;

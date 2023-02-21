@@ -1,4 +1,4 @@
-package Sort;
+package SortingAndSearching;
 
 import java.io.BufferedReader;
 import java.io.IOException;

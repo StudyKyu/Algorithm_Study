@@ -1,4 +1,4 @@
-package Sort;
+package SortingAndSearching;
 
 import java.util.Arrays;
 import java.util.Iterator;
